@@ -1,0 +1,122 @@
+html {
+    background-color: #B0D9B1; 
+    font-size: 16px;
+    color: #557C55;
+    font-family: "Roboto Slab", serif;
+    text-align:center;
+    box-sizing: border-box;  
+  }
+  
+footer{
+    position: fixed;
+    margin: auto;
+    bottom: 0;  
+    font-size: xx-small;
+  }
+
+li{
+    list-style-type: none;
+    white-space: normal;
+}
+
+.bold{
+  font-weight: 1000;
+}
+
+h1{
+  letter-spacing: 0.5px;
+}
+
+button{
+    border-radius: 7px;
+    background-color:#F5F5DC;
+    border: 0;
+  }
+
+button:hover{
+    background-color:#618264;
+    color:#F5F5DC;
+    cursor:pointer;
+  }
+
+.quotes-area{
+  text-align: center;
+}
+
+#refreshBtn{   
+    color:#79AC78;
+}
+
+#refreshBtn:hover{
+  color:#F5F5DC;
+}
+
+header{
+  color:#F5F5DC;
+  background-color: #79AC78;
+  margin: 20px auto;
+  padding-top:10px;
+  width: 50%;
+  height: 140px;
+  border-radius: 7px;
+  max-width: 500px;
+  } 
+
+header > h1{
+  margin:auto;
+  border-bottom: 2px solid #618264;
+}
+
+
+label{
+  display: block;
+}
+
+p{
+  margin:5px;
+} 
+
+.target-box{
+  position: relative;
+  top:10;
+  left:10;
+  margin:auto;
+}
+
+.target-area textarea{
+  overflow: auto;
+  margin: 20px auto;
+  background-color: #F5F5DC;
+  width:250px;
+  height:75px;
+}
+
+input{
+  background-color: #F5F5DC;
+}
+
+.todoContent{
+  background-color: #F5F5DC;
+  border-radius: 7px;
+  margin: 10px auto;
+  border: 1px #618264 solid;
+  padding: 5px;
+  width:200px;
+  word-wrap:break-word;
+}
+
+.aToDoItem button{
+  margin:-20px 10px;
+}
+
+#addItemContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width:75%;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+}
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <h1 class="bold">TO DO LIST</h1>
+            <div class="quotes-area">
+                <p id="quotes">Every second Counts</p>
+                <button id="refreshBtn">Refresh</button> 
+            </div> 
+        </header>
+        
+        <main>      
+            <section class="target-area">
+                <div class="target-box">
+                    <label class="bold" for="goal"> 💪 Write down your goal 💪 </label>
+                    <textarea id="goal" ></textarea>                   
+                </div>
+            </section>
+
+            <div id="dragArea1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+            <section class="item-area">
+                <input type="text" id="addInput" maxlength="20" placeholder="Enter your To-do Item" value="" required/>
+                <button type="button" id="addBtn">Add Item</button>
+                <br />
+                <div id="addItemContainer">
+                </div>    
+            </section>
+        </main>
+        <footer></footer>
+
+        <!--JS link below-->
+        <script src="./JS/addItems.js" type="module"></script>
+        <script src="./JS/showquotes.js" type="module"></script>
+        <script src="./JS/footer.js"></script>
+    </body>
+
+   
+</html>
